@@ -20,7 +20,7 @@ public class TestUkrNet {
 
     @Test
     public void shouldBeErrorMessage(){
-        driver.get("https://www.ukr.net/");  //test comment for commit to github
+        driver.get("https://www.ukr.net/"); 
         driver.findElement(By.name("Login")).sendKeys("adasd");
         driver.findElement(By.name("Password")).sendKeys("dvsdvfd");
         driver.findElement(By.xpath(".//*[@id='not-logged']/form//button")).click();
