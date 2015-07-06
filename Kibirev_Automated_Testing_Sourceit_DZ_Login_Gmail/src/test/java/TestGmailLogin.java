@@ -12,8 +12,8 @@ public class TestGmailLogin {
     WebDriver driver;
 
 
-    String email = "vitya.kibirev@gmail.com";
-    String pass = "CsQ#Nfs@";
+    String email = "nextissuetest1@gmail.com";
+    String pass = "nextistest1";
     String incpass = "dsadsadadsa";
 
     @Before
