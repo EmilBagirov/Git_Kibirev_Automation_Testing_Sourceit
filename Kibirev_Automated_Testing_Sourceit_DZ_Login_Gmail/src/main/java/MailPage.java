@@ -10,11 +10,13 @@ public class MailPage {
         Waiters.WaitImpl();
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.passwordField)).sendKeys(pass);
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.enterButton)).click();
-        WebDriverHolder.driver.findElement(By.cssSelector(Locators.inbox));
-        WebDriverHolder.driver.findElement(By.cssSelector(Locators.starred));
-        WebDriverHolder.driver.findElement(By.cssSelector(Locators.sent));
-        WebDriverHolder.driver.findElement(By.cssSelector(Locators.important));
-        WebDriverHolder.driver.findElement(By.cssSelector(Locators.drafts));
+        WebDriverHolder.driver.findElement(By.cssSelector(Locators.inbox)).isDisplayed();
+        WebDriverHolder.driver.findElement(By.cssSelector(Locators.starred)).isDisplayed();
+        WebDriverHolder.driver.findElement(By.cssSelector(Locators.sent)).isDisplayed();
+        WebDriverHolder.driver.findElement(By.cssSelector(Locators.important)).isDisplayed();
+        WebDriverHolder.driver.findElement(By.cssSelector(Locators.drafts)).isDisplayed();
+
+
 
 
 
