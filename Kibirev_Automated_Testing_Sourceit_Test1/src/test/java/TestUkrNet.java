@@ -13,6 +13,7 @@ public class TestUkrNet {
 
     WebDriver driver;
 
+
     @Before
     public void setUp(){
         driver = new FirefoxDriver();
@@ -20,12 +21,13 @@ public class TestUkrNet {
 
     @Test
     public void shouldBeErrorMessage(){
-        driver.get("https://www.ukr.net/"); 
+        driver.get("https://www.ukr.net/");
         driver.findElement(By.name("Login")).sendKeys("adasd");
         driver.findElement(By.name("Password")).sendKeys("dvsdvfd");
         driver.findElement(By.xpath(".//*[@id='not-logged']/form//button")).click();
         String err = driver.findElement(By.cssSelector(".error-text")).getText();
         assertThat(err,equalTo("Не вірний логін або пароль. Спробуйте знову."));
+
 
     }
 
