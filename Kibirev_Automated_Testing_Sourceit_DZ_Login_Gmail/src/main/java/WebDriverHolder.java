@@ -1,7 +1,7 @@
 
 import org.openqa.selenium.WebDriver;
 
-public class Driver {
+public class WebDriverHolder {
 
     public static WebDriver driver;
 
@@ -10,10 +10,7 @@ public class Driver {
     }
 
     public static void setDriver(WebDriver driver) {
-        Driver.driver = driver;
+        WebDriverHolder.driver = driver;
     }
-
-
-
 }
 
