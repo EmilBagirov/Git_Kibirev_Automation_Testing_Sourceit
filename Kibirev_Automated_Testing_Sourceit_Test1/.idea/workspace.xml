@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d1b0bf4d-1f25-4867-aa95-76a7d8adf785" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/Locators.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/Locators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/LoginPage.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/LoginPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/MailPage.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/MailPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/test/java/TestGmailLogin.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/test/java/TestGmailLogin.java" />
     </list>
     <ignored path="Kibirev_Automated_Testing_Sourceit_Test1.iws" />
     <ignored path=".idea/workspace.xml" />

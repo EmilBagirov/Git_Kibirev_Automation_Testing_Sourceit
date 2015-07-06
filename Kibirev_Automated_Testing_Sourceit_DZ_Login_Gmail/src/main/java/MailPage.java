@@ -16,7 +16,6 @@ public class MailPage {
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.important));
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.drafts));
 
-        WebDriverHolder.driver.findElement(By.cssSelector(Locators.emailField));
 
 
 
