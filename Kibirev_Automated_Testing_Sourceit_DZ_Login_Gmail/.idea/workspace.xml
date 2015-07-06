@@ -38,8 +38,8 @@
       <file leaf-file-name="Locators.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Locators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30756578">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.4194079">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -132,11 +132,11 @@
         <option value="$PROJECT_DIR$/src/main/java/WebDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Locators.java" />
         <option value="$PROJECT_DIR$/src/main/java/Waiters.java" />
         <option value="$PROJECT_DIR$/src/main/java/WebDriverHolder.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGmailLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/MailPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Locators.java" />
       </list>
     </option>
   </component>
@@ -686,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Locators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30756578">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.4194079">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
         </state>
       </provider>

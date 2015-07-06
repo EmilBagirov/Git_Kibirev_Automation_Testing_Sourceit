@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b0bf4d-1f25-4867-aa95-76a7d8adf785" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/target/classes/Locators.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/target/classes/LoginPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/target/classes/MailPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/target/test-classes/TestGmailLogin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/target/classes/Waiters.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/target/classes/WebDriverHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WebDriverHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="D:\JavaStudy\KibirevSourceitQAautomation\Git_Kibirev_Automation_Testing_Sourceit\Kibirev_Automated_Testing_Sourceit_Test1\src\test\java\TestGmail.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Locators.class" afterPath="$PROJECT_DIR$/target/classes/Locators.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGmail.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGmail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/LoginPage.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/MailPage.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/MailPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/test/java/TestGmailLogin.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/test/java/TestGmailLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/Waiters.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/Waiters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\JavaStudy\KibirevSourceitQAautomation\Git_Kibirev_Automation_Testing_Sourceit\Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail\src\main\java\Driver.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/WebDriverHolder.java" />
-      <change type="MOVED" beforePath="D:\JavaStudy\KibirevSourceitQAautomation\Git_Kibirev_Automation_Testing_Sourceit\Kibirev_Automated_Testing_Sourceit_Test1\src\main\java\Locators.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/Locators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/Locators.java" afterPath="$PROJECT_DIR$/../Kibirev_Automated_Testing_Sourceit_DZ_Login_Gmail/src/main/java/Locators.java" />
     </list>
     <ignored path="Kibirev_Automated_Testing_Sourceit_Test1.iws" />
     <ignored path=".idea/workspace.xml" />
