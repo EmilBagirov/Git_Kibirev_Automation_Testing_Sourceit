@@ -4,7 +4,6 @@ public class MailPage {
 
     public static void LogInCheckMailItems (String email, String pass){
 
-
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.emailField)).sendKeys(email);
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.nextButton)).click();
         Waiters.WaitImpl();
@@ -15,11 +14,6 @@ public class MailPage {
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.sent)).isDisplayed();
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.important)).isDisplayed();
         WebDriverHolder.driver.findElement(By.cssSelector(Locators.drafts)).isDisplayed();
-
-
-
-
-
 
     }
 
