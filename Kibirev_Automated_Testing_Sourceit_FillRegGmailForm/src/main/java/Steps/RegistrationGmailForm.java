@@ -33,6 +33,7 @@ public class RegistrationGmailForm {
 
     public  void clickSubmitButton () {
 
+        WaitingUtils.implicityWait();
         regFormComponents.submitButton().click();
 
     }
@@ -47,25 +48,22 @@ public class RegistrationGmailForm {
         regFormComponents.confirmPasswordField().sendKeys("-=-=-=-=");
         regFormComponents.birthDay().sendKeys("5");
         regFormComponents.birthdayDropDown().click();
-        WaitingUtils.implicityWait();
         regFormComponents.selectBirthdayMonth().click();
         regFormComponents.birthYear().sendKeys("1999");
         regFormComponents.genderDropDown().click();
-        WaitingUtils.implicityWait();
         regFormComponents.genderSelect().click();
         regFormComponents.recoveryNumber().sendKeys("991234987");
         regFormComponents.recoveryMail().sendKeys("recoverymail@gmail.com");
         regFormComponents.enterCaptchaField().sendKeys(randomCaptcha());
         regFormComponents.countryCodeDropdown().click();
-        WaitingUtils.implicityWait();
         regFormComponents.countryCodeSelect().click();
 
     }
 
     public void fillGmailRegPageCheck () {
 
-        fillGmailRegPageUncheck();
         WaitingUtils.implicityWait();
+        fillGmailRegPageUncheck();
         regFormComponents.tosCheckbox().click();
         clickSubmitButton();
     }

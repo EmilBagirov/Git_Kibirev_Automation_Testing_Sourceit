@@ -58,11 +58,6 @@ public class RegistrationFormComponents {
         return $(By.id("RecoveryEmailAddress"));
     }
 
-    public WebElement skipCaptchaCheckbox() {
-
-        return $(By.id("SkipCaptcha"));
-    }
-
     public WebElement enterCaptchaField() {
 
         return $(By.id("recaptcha_response_field"));
