@@ -5,12 +5,11 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.PageFactory;
 
 public class TestGmailRegFrom {
 
-    WebDriver driver;
-    RegistrationGmailForm steps = PageFactory.initElements(driver, RegistrationGmailForm.class);
+    private WebDriver driver;
+    RegistrationGmailForm steps = new RegistrationGmailForm();
 
     @Before
     public void setUp() throws Exception {

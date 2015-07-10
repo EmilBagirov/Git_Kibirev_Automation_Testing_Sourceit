@@ -3,10 +3,9 @@ package Steps;
 
 import Tools.RegistrationFormComponents;
 import Tools.UiUtils;
+import Tools.WaitingUtils;
 
 import static Tools.UiUtils.randomCaptcha;
-import static Tools.WaitingUtils.IplicityWait;
-import static Tools.WaitingUtils.waitForElement;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -27,7 +26,6 @@ public class RegistrationGmailForm {
 
     public void checkErrorMessage () {
 
-        IplicityWait();
         String errmsg = regFormComponents.tosErrorMsg().getText();
         assertThat(errmsg, equalTo("Чтобы создать аккаунт Google, нужно принять наши Условия использования."));
 
@@ -36,12 +34,12 @@ public class RegistrationGmailForm {
     public  void clickSubmitButton () {
 
         regFormComponents.submitButton().click();
-        IplicityWait();
 
     }
 
     public void fillGmailRegPageUncheck () {
 
+        WaitingUtils.implicityWait();
         regFormComponents.firstName().sendKeys("Test");
         regFormComponents.lastName().sendKeys("Testovoy");
         regFormComponents.gmailAddress().sendKeys("tttttttest1999");
@@ -49,17 +47,17 @@ public class RegistrationGmailForm {
         regFormComponents.confirmPasswordField().sendKeys("-=-=-=-=");
         regFormComponents.birthDay().sendKeys("5");
         regFormComponents.birthdayDropDown().click();
-        waitForElement(regFormComponents.selectBirthdayMonth());
+        WaitingUtils.implicityWait();
         regFormComponents.selectBirthdayMonth().click();
         regFormComponents.birthYear().sendKeys("1999");
         regFormComponents.genderDropDown().click();
-        waitForElement(regFormComponents.genderSelect());
+        WaitingUtils.implicityWait();
         regFormComponents.genderSelect().click();
         regFormComponents.recoveryNumber().sendKeys("991234987");
         regFormComponents.recoveryMail().sendKeys("recoverymail@gmail.com");
         regFormComponents.enterCaptchaField().sendKeys(randomCaptcha());
         regFormComponents.countryCodeDropdown().click();
-        waitForElement(regFormComponents.countryCodeSelect());
+        WaitingUtils.implicityWait();
         regFormComponents.countryCodeSelect().click();
 
     }
@@ -67,6 +65,7 @@ public class RegistrationGmailForm {
     public void fillGmailRegPageCheck () {
 
         fillGmailRegPageUncheck();
+        WaitingUtils.implicityWait();
         regFormComponents.tosCheckbox().click();
         clickSubmitButton();
     }
