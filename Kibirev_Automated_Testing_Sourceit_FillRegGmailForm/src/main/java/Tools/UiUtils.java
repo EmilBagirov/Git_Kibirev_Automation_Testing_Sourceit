@@ -22,7 +22,6 @@ public class UiUtils {
 
     public static String randomCaptcha () {
         int randNum = 1000+(int)(Math.random()*1000);
-        //int i = (int) Math.round(randNum);
         String rand = Integer.toString(randNum);
         return rand;
     }

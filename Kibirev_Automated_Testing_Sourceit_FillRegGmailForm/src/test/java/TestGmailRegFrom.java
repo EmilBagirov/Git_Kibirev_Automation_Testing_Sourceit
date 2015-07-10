@@ -1,4 +1,4 @@
-import Steps.RegGmailForm;
+import Steps.RegistrationGmailForm;
 import Tools.WebDriverHolder;
 import org.junit.After;
 import org.junit.Before;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 public class TestGmailRegFrom {
 
     WebDriver driver;
-    RegGmailForm steps = PageFactory.initElements(driver, RegGmailForm.class);
+    RegistrationGmailForm steps = PageFactory.initElements(driver, RegistrationGmailForm.class);
 
     @Before
     public void setUp() throws Exception {
@@ -20,7 +20,7 @@ public class TestGmailRegFrom {
     }
 
     @Test
-    public void testFillGmailRegForm() {
+    public void SubmitFormTOSCheckBoxUnchecked() {
 
         steps.goToRegFormPage();
         steps.fillGmailRegPageUncheck();
