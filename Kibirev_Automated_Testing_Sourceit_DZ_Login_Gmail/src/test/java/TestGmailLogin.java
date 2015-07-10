@@ -1,11 +1,8 @@
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-import java.util.Collection;
 
 public class TestGmailLogin {
 

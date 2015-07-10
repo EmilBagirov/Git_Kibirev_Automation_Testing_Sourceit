@@ -12,8 +12,6 @@ public class WaitingUtils {
 
         getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-
-
     }
 
 
