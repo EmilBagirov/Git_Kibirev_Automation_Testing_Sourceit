@@ -3,7 +3,6 @@ package Steps;
 
 import Tools.RegistrationFormComponents;
 import Tools.UiUtils;
-import org.openqa.selenium.support.ui.Select;
 
 import static Tools.UiUtils.randomCaptcha;
 import static Tools.WaitingUtils.IplicityWait;
@@ -13,7 +12,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class RegistrationGmailForm {
 
-    private Select dropDown;
     RegistrationFormComponents regFormComponents;
 
     public RegistrationGmailForm() {
@@ -50,7 +48,7 @@ public class RegistrationGmailForm {
         regFormComponents.passwordField().sendKeys("-=-=-=-=");
         regFormComponents.confirmPasswordField().sendKeys("-=-=-=-=");
         regFormComponents.birthDay().sendKeys("5");
-        regFormComponents.dropDownArrow().click();
+        regFormComponents.birthdayDropDown().click();
         waitForElement(regFormComponents.selectBirthdayMonth());
         regFormComponents.selectBirthdayMonth().click();
         regFormComponents.birthYear().sendKeys("1999");

@@ -34,11 +34,6 @@ public class RegistrationFormComponents {
         return $(By.id("BirthDay"));
     }
 
-    public WebElement birthMonth() {
-
-        return $(By.cssSelector("#div[aria-activedescendant=\":0\"]"));
-    }
-
     public WebElement birthYear() {
 
         return $(By.id("BirthYear"));
@@ -102,7 +97,7 @@ public class RegistrationFormComponents {
         return $(By.id("submitbutton"));
     }
 
-    public WebElement dropDownArrow() {
+    public WebElement birthdayDropDown() {
         return $(By.cssSelector("div > div[id=\":0\"]"));
     }
     public  WebElement selectBirthdayMonth () {

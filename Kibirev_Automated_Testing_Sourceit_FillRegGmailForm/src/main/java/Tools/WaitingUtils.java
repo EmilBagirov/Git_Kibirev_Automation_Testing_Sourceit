@@ -17,7 +17,7 @@ public class WaitingUtils {
 
     }
 
-    public static FluentWait waitForElement (WebElement conditions) {
+    public static FluentWait waitForElement (WebElement webElement) {
         return new FluentWait(getDriver()).withTimeout(15, TimeUnit.SECONDS).pollingEvery(1, TimeUnit.SECONDS);
     }
 
