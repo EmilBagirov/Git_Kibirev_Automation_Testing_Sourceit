@@ -1,27 +1,23 @@
 import Steps.RegistrationGmailForm;
 import Tools.WebDriverHolder;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class TestGmailRegFrom {
+public class TestGmailRegFrom extends BaseTest{
 
-    private WebDriver driver;
-    RegistrationGmailForm steps = new RegistrationGmailForm();
+    private RegistrationGmailForm steps = new RegistrationGmailForm();
 
     @Before
-    public void setUp() throws Exception {
-        driver = new FirefoxDriver();
-        WebDriverHolder.setDriver(driver);
+    public void setUpMethod() {
+
+        steps.goToRegFormPage();
 
     }
 
     @Test
     public void SubmitFormTOSCheckBoxUnchecked() {
 
-        steps.goToRegFormPage();
         steps.fillGmailRegPageUncheck();
         steps.clickSubmitButton();
         steps.checkErrorMessage();
@@ -31,17 +27,11 @@ public class TestGmailRegFrom {
     @Test
     public void SubmitFormTOSCheckBoxChecked(){
 
-        steps.goToRegFormPage();
         steps.fillGmailRegPageCheck();
         steps.clickSubmitButton();
 
     }
 
-    @After
-    public void tearDown() throws Exception {
-        driver.close();
-
-    }
 }
 
 
