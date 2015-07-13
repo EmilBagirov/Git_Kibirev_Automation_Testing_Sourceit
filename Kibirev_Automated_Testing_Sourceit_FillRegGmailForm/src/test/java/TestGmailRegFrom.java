@@ -1,12 +1,11 @@
 import Steps.RegistrationGmailForm;
-import Tools.WebDriverHolder;
-import org.junit.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.junit.Before;
+import org.junit.Test;
 
 public class TestGmailRegFrom extends BaseTest{
 
     private RegistrationGmailForm steps = new RegistrationGmailForm();
+
 
     @Before
     public void setUpMethod() {

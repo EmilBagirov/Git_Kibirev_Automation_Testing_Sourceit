@@ -1,0 +1,54 @@
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.cssSelector: #link-signup>a
+DEBUG - Listeners.EventListeners afterFindBy - Element By.cssSelector: #link-signup>a found 
+DEBUG - Listeners.EventListeners beforeClickOn - Button should be pushed
+DEBUG - Listeners.EventListeners afterClickOn - Button pushed
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: FirstName
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: FirstName found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: LastName
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: LastName found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: GmailAddress
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: GmailAddress found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: Passwd
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: Passwd found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: PasswdAgain
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: PasswdAgain found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: BirthDay
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: BirthDay found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.cssSelector: div > div[id=":0"]
+DEBUG - Listeners.EventListeners afterFindBy - Element By.cssSelector: div > div[id=":0"] found 
+DEBUG - Listeners.EventListeners beforeClickOn - Button should be pushed
+DEBUG - Listeners.EventListeners afterClickOn - Button pushed
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.cssSelector: div [id=":4"]
+DEBUG - Listeners.EventListeners afterFindBy - Element By.cssSelector: div [id=":4"] found 
+DEBUG - Listeners.EventListeners beforeClickOn - Button should be pushed
+DEBUG - Listeners.EventListeners afterClickOn - Button pushed
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: BirthYear
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: BirthYear found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.cssSelector: div > div [id = ":d"]
+DEBUG - Listeners.EventListeners afterFindBy - Element By.cssSelector: div > div [id = ":d"] found 
+DEBUG - Listeners.EventListeners beforeClickOn - Button should be pushed
+DEBUG - Listeners.EventListeners afterClickOn - Button pushed
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.cssSelector: div [id=":f"]
+DEBUG - Listeners.EventListeners afterFindBy - Element By.cssSelector: div [id=":f"] found 
+DEBUG - Listeners.EventListeners beforeClickOn - Button should be pushed
+DEBUG - Listeners.EventListeners afterClickOn - Button pushed
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: RecoveryPhoneNumber
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: RecoveryPhoneNumber found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: RecoveryEmailAddress
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: RecoveryEmailAddress found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: recaptcha_response_field
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: recaptcha_response_field found 
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.cssSelector: div > div [id=":h"]
+DEBUG - Listeners.EventListeners afterFindBy - Element By.cssSelector: div > div [id=":h"] found 
+DEBUG - Listeners.EventListeners beforeClickOn - Button should be pushed
+DEBUG - Listeners.EventListeners afterClickOn - Button pushed
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.cssSelector: div [id=":6p"]
+DEBUG - Listeners.EventListeners afterFindBy - Element By.cssSelector: div [id=":6p"] found 
+DEBUG - Listeners.EventListeners beforeClickOn - Button should be pushed
+DEBUG - Listeners.EventListeners afterClickOn - Button pushed
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: submitbutton
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: submitbutton found 
+DEBUG - Listeners.EventListeners beforeClickOn - Button should be pushed
+DEBUG - Listeners.EventListeners afterClickOn - Button pushed
+DEBUG - Listeners.EventListeners beforeFindBy - Should be element by By.id: errormsg_0_TermsOfService
+DEBUG - Listeners.EventListeners afterFindBy - Element By.id: errormsg_0_TermsOfService found 

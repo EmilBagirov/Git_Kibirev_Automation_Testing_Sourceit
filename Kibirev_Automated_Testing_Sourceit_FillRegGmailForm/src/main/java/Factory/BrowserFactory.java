@@ -18,7 +18,8 @@ public class BrowserFactory {
             System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
             return new ChromeDriver();
         } else if ("IE".equalsIgnoreCase(browser)){
-            System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\IEDriverServer.exe");
+
+            System.setProperty("webdriver.ie.driver",System.getProperty("user.dir")+"\\drivers\\IEDriverServer.exe");
             return new InternetExplorerDriver();
         } else {
             return defaultDriver;

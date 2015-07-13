@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%-5level - %msg%n"/>
+		</Console>
+
+		<File name="MyFile" fileName = "logs/app.log" append="false">
+			<PatternLayout pattern="%-5level - %logger{36} %M - %msg%n"/>
+		</File>
+
+		<File name="HTMLAppender" fileName="logs/html/mainlog.html">
+			<HTMLLayout charset="UTF-8" title="My log"></HTMLLayout>
+		</File>
+	</Appenders>
+
+	<Loggers>
+		<Root level="trace">
+			<Appender-ref ref="Console" level="info"/>
+			<Appender-ref ref="MyFile" level="trace"/>
+			<Appender-ref ref="HTMLAppender" level="debug"/>
+		</Root>
+	</Loggers>
+</Configuration>

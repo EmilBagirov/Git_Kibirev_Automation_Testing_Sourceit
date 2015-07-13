@@ -6,7 +6,7 @@ import Tools.UiUtils;
 import Tools.WaitingUtils;
 
 import static Tools.UiUtils.randomCaptcha;
-import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class RegistrationGmailForm {
@@ -26,8 +26,10 @@ public class RegistrationGmailForm {
 
     public void checkErrorMessage () {
 
+        WaitingUtils.implicityWait();
         String errmsg = regFormComponents.tosErrorMsg().getText();
-        assertThat(errmsg, equalTo("Чтобы создать аккаунт Google, нужно принять наши Условия использования."));
+        assertThat(errmsg, anyOf(startsWith("Чтобы создать аккаунт Google, нужно принять наши Условия использования."),
+                containsString("In order to use our services, you must agree to Google's Terms of Service.")));
 
     }
 
