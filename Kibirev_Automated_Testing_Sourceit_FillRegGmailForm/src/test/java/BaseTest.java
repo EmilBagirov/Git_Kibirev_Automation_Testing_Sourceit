@@ -7,13 +7,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import util.PropertyUtils;
 
+import java.net.MalformedURLException;
+
 public abstract class BaseTest {
 
     private static WebDriver driver;
     static EventFiringWebDriver eventDriver;
 
     @BeforeClass
-    public static void setUp() {
+    public static void setUp() throws MalformedURLException {
 
         driver = BrowserFactory.getDriver(PropertyUtils.getProperty("browser"));
         eventDriver = new EventFiringWebDriver(driver);
@@ -24,6 +26,7 @@ public abstract class BaseTest {
 
     @AfterClass
     public static void tearDown() {
+
         eventDriver.close();
 
     }

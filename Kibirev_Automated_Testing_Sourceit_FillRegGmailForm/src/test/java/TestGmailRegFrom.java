@@ -10,6 +10,8 @@ public class TestGmailRegFrom extends BaseTest{
     @Before
     public void setUpMethod() {
 
+
+
         steps.goToRegFormPage();
 
     }
